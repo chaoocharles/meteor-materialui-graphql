@@ -1,0 +1,32 @@
+type Customer {
+  _id: String!
+  firstName: String!
+  lastName: String!
+  customerEmail: String!
+  # phone: String!
+  # website: String!
+  # street: String!
+  # zipCode: String!
+  # county: String!
+  # country: String!
+}
+
+type Query {
+  customers: [Customer]
+  customer(customerId: String!): Customer
+}
+
+type Mutation {
+  createCustomer(
+    firstName: String!
+    lastName: String!
+    customerEmail: String!
+  ): # phone: String!
+  # website: String!
+  # street: String!
+  # zipCode: String!
+  # county: String!
+  # country: String!
+  Customer
+  deleteCustomer(customerId: String!): null
+}

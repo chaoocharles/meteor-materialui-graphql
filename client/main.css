@@ -1,0 +1,13 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+a {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.customContainer{
+  margin-top: 70px;
+}
